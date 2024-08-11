@@ -1,0 +1,97 @@
+body {
+    background-color: #F0F8FF; /* Soft Ice Blue */
+}
+
+.navbar {
+    background-color: #4682B4; /* Calm Sea Blue */
+}
+
+#intro{
+    height: 100vh;
+    background-color: #87CEEB; /* Cool Sky Blue */
+    color: #fff;
+}
+
+#intro .display-2 {
+    color: #fff;
+}
+
+#intro .text-muted {
+    color: #f0f8ff;
+}
+
+
+#about{
+    height: 100vh;
+    background-color: #E0FFFF; /* Gentle Cyan */
+    color: #000;
+}
+
+#about .lead {
+    color: #333;
+}
+
+
+
+
+
+
+#contacts{
+    height: 100vh;
+    background-color: #008080; /* Oceanic Teal */
+    color: #fff;
+}
+
+#contacts .link-body-light {
+    color: #E0FFFF; /* Gentle Cyan */
+}
+
+#contacts .contact-icon {
+    width: 24px;
+    height: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px; 
+}
+
+.navbar-nav .nav-item a{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contacts .container-lg {
+    padding: 7rem 6rem; /* Increase padding for more space */
+}
+
+/* Increase the size of the inner content box */
+#contacts .row {
+    padding: 6rem 4rem; /* Adjust the padding for the inner box */
+}
+
+/* Increase the size of the image */
+#contacts img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: 450px; /* Set a fixed height for a larger image */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Adjust the background color of the box (optional, if bg-B6E7FF isn't working) */
+#contacts .bg-B6E7FF {
+    background-color: #B6E7FF; /* Make sure the background color is correctly applied */
+}
+
+#contacts .col-md-5 p img.contact-icon {
+    width: 40px; /* Set a smaller width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between the icon and the text */
+}
+
+/* Optional: Adjust padding and margin for better layout */
+#contacts .container-lg {
+    padding: 5rem 3rem; /* Adjust container padding */
+}
+
+#contacts .row {
+    padding: 3rem 2rem; /* Adjust inner row padding */
+}
