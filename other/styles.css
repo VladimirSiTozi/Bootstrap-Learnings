@@ -843,6 +843,11 @@
     .image-title {
       font-size: 11px;
     }
+
+    .certificate-container {
+      border: none;
+    }
+
   }
   
   .technologies-item img:hover {
@@ -2264,3 +2269,11 @@
     border-radius: 10px;
     box-shadow: var(--shadow-2);
   }
+
+
+  @media (max-width: 400px) {
+    .certificate-container {
+      border: none !important;
+  }
+  }
+
